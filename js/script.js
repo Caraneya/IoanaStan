@@ -768,7 +768,7 @@ $(document).ready(function() {
         $("#navPath a").attr("href","/work.html?page=art");
     }else if(parameter=="home"){
         $("#navPath a").html("Latest work");
-        $("#navPath a").attr("href","/home.html?page=home#jumpHere");
+        $("#navPath a").attr("href","/index.html?page=home#jumpHere");
     }else{
         $("#navPath a").html("Game Design");
         $("#navPath a").attr("href","/work.html");
