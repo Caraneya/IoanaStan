@@ -63,7 +63,7 @@ $(document).ready(function() {
     //Hover effect images
     //Image1
     $("#items div#1").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img1+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img1+'")');
         $("#1 button").removeClass("hide");
         $("#1 p").removeClass("hide");
         $("#1 section").addClass("rec");
@@ -82,7 +82,7 @@ $(document).ready(function() {
         });    
 
     $("#items div#1").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img1+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -94,7 +94,7 @@ $(document).ready(function() {
 
     //Image2
     $("#items div#2").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img2+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img2+'")');
         $("#2 button").removeClass("hide");
         $("#2 p").removeClass("hide");
         $("#2 section").addClass("rec");
@@ -112,7 +112,7 @@ $(document).ready(function() {
     });
 
     $("#items div#2").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img2+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img2+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -124,7 +124,7 @@ $(document).ready(function() {
 
     //Image3
     $("#items div#3").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img3+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img3+'")');
         $("#3 button").removeClass("hide");
         $("#3 p").removeClass("hide");
         $("#3 section").addClass("rec");
@@ -142,7 +142,7 @@ $(document).ready(function() {
     });
 
     $("#items div#3").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img3+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img3+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -154,7 +154,7 @@ $(document).ready(function() {
 
     //Image4
     $("#items div#4").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img4+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img4+'")');
         $("#4 button").removeClass("hide");
         $("#4 p").removeClass("hide");
         $("#4 section").addClass("rec");
@@ -172,7 +172,7 @@ $(document).ready(function() {
     });
 
     $("#items div#4").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img4+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img4+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -322,42 +322,42 @@ $(document).ready(function() {
     //About cards
     $("#aboutCards").mouseover(function(e){
         $("#aboutCards").css("background-color", "#24051B");
-        $("#aboutCards figure img:first").attr("src", "assets/imgs/backstoryIconHover.png");
+        $("#aboutCards figure img:first").attr("src", "imgs/backstoryIconHover.png");
     });
     
     $("#aboutCards").mouseleave(function(e){
         $("#aboutCards").css("background-color", "#1B0314");
-        $("#aboutCards figure img:first").attr("src", "assets/imgs/backStoryIcon.png");
+        $("#aboutCards figure img:first").attr("src", "imgs/backStoryIcon.png");
     });
 
     $(".lower").mouseover(function(e){
         $(".lower").css("background-color", "#24051B");
-        $("#aboutCards figure img").eq(1).attr("src", "assets/imgs/expIconHover.png");
+        $("#aboutCards figure img").eq(1).attr("src", "imgs/expIconHover.png");
     });
     
     $(".lower").mouseleave(function(e){
         $(".lower").css("background-color", "#1B0314");
-        $("#aboutCards figure img").eq(1).attr("src", "assets/imgs/expIcon.png");
+        $("#aboutCards figure img").eq(1).attr("src", "imgs/expIcon.png");
     });
 
     $(".aboutCards2").mouseover(function(e){
         $(".aboutCards2").css("background-color", "#24051B");
-        $(".aboutCards2 figure img").attr("src", "assets/imgs/eduIconHover.png");
+        $(".aboutCards2 figure img").attr("src", "imgs/eduIconHover.png");
     });
     
     $(".aboutCards2").mouseleave(function(e){
         $(".aboutCards2").css("background-color", "#1B0314");
-        $(".aboutCards2 figure img").attr("src", "assets/imgs/eduIcon.png");
+        $(".aboutCards2 figure img").attr("src", "imgs/eduIcon.png");
     });
 
     $(".lower2").mouseover(function(e){
         $(".lower2").css("background-color", "#24051B");
-        $(".lower2 figure img").attr("src", "assets/imgs/statsIconHover.png");
+        $(".lower2 figure img").attr("src", "imgs/statsIconHover.png");
     });
     
     $(".lower2").mouseleave(function(e){
         $(".lower2").css("background-color", "#1B0314");
-        $(".lower2 figure img").attr("src", "assets/imgs/statsIcon.png");
+        $(".lower2 figure img").attr("src", "imgs/statsIcon.png");
     });
 
 
@@ -680,54 +680,54 @@ $(document).ready(function() {
 
     $("#cutscene img").eq(0).hover(
         function() {
-            startGif(1,this,"assets/imgs/intro_areoles");
+            startGif(1,this,"imgs/intro_areoles");
         },
         function() {
-            startGif(0,this,"assets/imgs/intro_areoles");
+            startGif(0,this,"imgs/intro_areoles");
         }
     );
 
     $("#cutscene img").eq(1).hover(
         function() {
-            startGif(1,this,"assets/imgs/lastScene_areoles");
+            startGif(1,this,"imgs/lastScene_areoles");
         },
         function() {
-            startGif(0,this,"assets/imgs/lastScene_areoles");
+            startGif(0,this,"imgs/lastScene_areoles");
         }
     );
 
     $(".containerLevels .box:not(.impaired)").eq(0).hover(
         function() {
-            galleryChangeHover(1,this,"assets/imgs/poppy");
+            galleryChangeHover(1,this,"imgs/poppy");
         },
         function() {
-            galleryChangeHover(0,this,"assets/imgs/poppy");
+            galleryChangeHover(0,this,"imgs/poppy");
         }
     );
 
     $(".containerLevels .box:not(.impaired)").eq(1).hover(
         function() {
-            galleryChangeHover(1,this,"assets/imgs/hydra");
+            galleryChangeHover(1,this,"imgs/hydra");
         },
         function() {
-            galleryChangeHover(0,this,"assets/imgs/hydra");
+            galleryChangeHover(0,this,"imgs/hydra");
         }
     );
     $(".containerLevels .box:not(.impaired)").eq(2).hover(
         function() {
-            galleryChangeHover(1,this,"assets/imgs/orch");
+            galleryChangeHover(1,this,"imgs/orch");
         },
         function() {
-            galleryChangeHover(0,this,"assets/imgs/orch");
+            galleryChangeHover(0,this,"imgs/orch");
         }
     );
 
     $(".containerLevels .box:not(.impaired)").eq(3).hover(
         function() {
-            galleryChangeHover(1,this,"assets/imgs/rose");
+            galleryChangeHover(1,this,"imgs/rose");
         },
         function() {
-            galleryChangeHover(0,this,"assets/imgs/rose");
+            galleryChangeHover(0,this,"imgs/rose");
         }
     );
 
@@ -802,7 +802,7 @@ $(document).ready(function() {
 
 
 
-//changes the game design assets/imgs
+//changes the game design imgs
 function changeGame(){
 
     $("#workH2").html("The performance");
@@ -812,28 +812,28 @@ function changeGame(){
     $("#workNav h3").removeClass("workSelected");
     $("#workNav h3").eq(0).addClass("workSelected");
 
-    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+latestImg.img2+'")');
+    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+latestImg.img2+'")');
     $("#1 h5").html("GALACTIC EXPRESS");
     $("#1 h6").html("lead game designer");
 
-    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img3+'")');
+    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img3+'")');
     $("#2 h5").html("IMPAIRED");
     $("#2 h6").html("game designer");
 
-    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img2+'")');
+    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img2+'")');
     $("#3 h5").html("SAMURAI SAM");
     $("#3 h6").html("game designer");
 
-    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img1+'")');
+    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img1+'")');
     $("#4 h5").html("MYTHICAL DASH");
     $("#4 h6").html("game & product designer");
 
-    $("#righWor img").attr("src","assets/imgs/controllericons.svg");
+    $("#righWor img").attr("src","imgs/controllericons.svg");
 
     //Hover effect section Work images
     //Image1
     $("#itemsWork div#1").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img2+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img2+'")');
         $("#1 h5").removeClass("hide");
         $("#1 h6").removeClass("hide");
         $("#1 button").removeClass("hide");
@@ -851,7 +851,7 @@ function changeGame(){
     });
 
     $("#itemsWork div#1").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img2+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img2+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -861,7 +861,7 @@ function changeGame(){
     //Image2
     $("#itemsWork div#2").mouseover(function(e){
         e.preventDefault();
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img3+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img3+'")');
         $("#2 h5").removeClass("hide");
         $("#2 h6").removeClass("hide");
         $("#2 button").removeClass("hide");
@@ -879,7 +879,7 @@ function changeGame(){
     });
 
     $("#itemsWork div#2").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img3+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img3+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -888,7 +888,7 @@ function changeGame(){
 
     //Image3
     $("#itemsWork div#3").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+workImg.img2+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+workImg.img2+'")');
         $("#3 h5").removeClass("hide");
         $("#3 h6").removeClass("hide");
         $("#3 button").removeClass("hide");
@@ -906,7 +906,7 @@ function changeGame(){
     });
 
     $("#itemsWork div#3").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img2+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img2+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -917,7 +917,7 @@ function changeGame(){
     $("#itemsWork div#4").mouseover(function(e){
         $("#4 h5").removeClass("hide");
         $("#4 h6").removeClass("hide");
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+workImg.img1+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+workImg.img1+'")');
         $("#4 button").removeClass("hide");
         $("#4 p").removeClass("hide");
         $("#4 section").addClass("rec");
@@ -933,7 +933,7 @@ function changeGame(){
     });
 
     $("#itemsWork div#4").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img1+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img1+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -965,14 +965,14 @@ function changeGame(){
 
     $("#itemsWork").append(newFigure);
 
-    $("#itemsWork div#5").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img3+'")');
-    $("#itemsWork div#6").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img4+'")');
+    $("#itemsWork div#5").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img3+'")');
+    $("#itemsWork div#6").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img4+'")');
 
     //Image5
     $("#itemsWork div#5").mouseover(function(e){
         $("#5 h5").removeClass("hide");
         $("#5 h6").removeClass("hide");
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+workImg.img3+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+workImg.img3+'")');
         $("#5 button").removeClass("hide");
         $("#5 p").removeClass("hide");
         $("#5 section").addClass("rec");
@@ -988,7 +988,7 @@ function changeGame(){
     });
 
     $("#itemsWork div#5").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img3+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img3+'")');
         $("#5 button").addClass("hide");
         $("#5 p").addClass("hide");
         $("#5 section").removeClass("rec");
@@ -999,7 +999,7 @@ function changeGame(){
     $("#itemsWork div#6").mouseover(function(e){
         $("#6 h5").removeClass("hide");
         $("#6 h6").removeClass("hide");
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+workImg.img4+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+workImg.img4+'")');
         $("#6 button").removeClass("hide");
         $("#6 p").removeClass("hide");
         $("#6 section").addClass("rec");
@@ -1015,7 +1015,7 @@ function changeGame(){
     });
 
     $("#itemsWork div#6").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+workImg.img4+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+workImg.img4+'")');
         $("#6 button").addClass("hide");
         $("#6 p").addClass("hide");
         $("#6 section").removeClass("rec");
@@ -1051,19 +1051,19 @@ function changeProduct() {
     $("#workNav h3").removeClass("workSelected");
     $("#workNav h3").eq(1).addClass("workSelected");
 
-    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+latestImg.img1+'")');
+    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+latestImg.img1+'")');
     $("#1 h5").html("SHOP THE PIN");
     $("#1 h6").html("UI designer");
 
-    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img4+'")');
+    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img4+'")');
     $("#2 h5").html("HIGH INFINITY GUARD");
     $("#2 h6").html("UI designer");
 
-    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+productDesign.img1+'")');
+    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+productDesign.img1+'")');
     $("#3 h5").html("UMBRA");
     $("#3 h6").html("game poster");
 
-    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img2+'")');
+    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img2+'")');
     $("#4 h5").html("LOST");
     $("#4 h6").html("movie poster");
 
@@ -1074,11 +1074,11 @@ function changeProduct() {
 
     
 
-    $("#righWor img").attr("src","assets/imgs/penTool.svg");
+    $("#righWor img").attr("src","imgs/penTool.svg");
 
     //img1
     $("#itemsWork div#1").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img1+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -1097,7 +1097,7 @@ function changeProduct() {
     });
 
     $("#itemsWork div#1").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+latestImg.img1+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+latestImg.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -1108,7 +1108,7 @@ function changeProduct() {
 
     //img2
     $("#itemsWork div#2").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+latestImg.img4+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+latestImg.img4+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -1127,7 +1127,7 @@ function changeProduct() {
     });
 
     $("#itemsWork div#2").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+latestImg.img4+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+latestImg.img4+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -1138,7 +1138,7 @@ function changeProduct() {
 
     //img3
     $("#itemsWork div#3").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+productDesign.img1+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+productDesign.img1+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -1157,12 +1157,12 @@ function changeProduct() {
         <p class="description">In terms of composition, the background blends the game's world with the playing board, transitioning it into the real one.</p>
         <p class="description">The balanced design was kept by placing in the top part the game's title and caption. The dark sky provided an ideal setting for them, with the contrast emphasizing the name.</p>
         `;
-        overlayOpen(this,paragraph,"assets/imgs/umbraLong.png",0,0);
+        overlayOpen(this,paragraph,"imgs/umbraLong.png",0,0);
         }
     });
     
     $("#itemsWork div#3").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img1+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img1+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -1173,7 +1173,7 @@ function changeProduct() {
 
     //img4
     $("#itemsWork div#4").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+productDesign.img2+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+productDesign.img2+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -1192,12 +1192,12 @@ function changeProduct() {
             <p class="description">The elements such as the butterflies and the character were carefully manipulated to complement the dark and intense aesthetic of the poster.</p>
             <p class="description">I applied various filters and adjusted the saturation to easily integrate the character into its surroundings, as well as to keep a consistent overall mood.</p>
             `;
-            overlayOpen(this,paragraph,"assets/imgs/lostPoster.png",0,0);
+            overlayOpen(this,paragraph,"imgs/lostPoster.png",0,0);
         }
     });
 
     $("#itemsWork div#4").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img2+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img2+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -1222,12 +1222,12 @@ function changeProduct() {
 
     $("#itemsWork").append(newFigure);
 
-    $("#itemsWork div#5").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img3+'")');
-    $("#itemsWork div#6").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img4+'")');
+    $("#itemsWork div#5").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img3+'")');
+    $("#itemsWork div#6").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img4+'")');
 
     //img5
     $("#itemsWork div#5").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+productDesign.img3+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+productDesign.img3+'")');
         $("#5 section").removeClass("rec");
         $("#5 h5").addClass("hide");
         $("#5 h6").addClass("hide");
@@ -1244,7 +1244,7 @@ function changeProduct() {
     });
 
     $("#itemsWork div#5").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img3+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img3+'")');
         $("#5 section").removeClass("rec");
         $("#5 h5").removeClass("hide");
         $("#5 h6").removeClass("hide");
@@ -1253,7 +1253,7 @@ function changeProduct() {
 
     //img6
     $("#itemsWork div#6").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+productDesign.img4+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+productDesign.img4+'")');
         $("#6 section").removeClass("rec");
         $("#6 h5").addClass("hide");
         $("#6 h6").addClass("hide");
@@ -1270,7 +1270,7 @@ function changeProduct() {
     });
 
     $("#itemsWork div#6").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img4+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img4+'")');
         $("#6 section").removeClass("rec");
         $("#6 h5").removeClass("hide");
         $("#6 h6").removeClass("hide");
@@ -1293,12 +1293,12 @@ function changeProduct() {
 
     $("#itemsWork").append(newFigure2);
 
-    $("#itemsWork div#7").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img5+'")');
-    $("#itemsWork div#8").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img6+'")');
+    $("#itemsWork div#7").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img5+'")');
+    $("#itemsWork div#8").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img6+'")');
 
     //img7
     $("#itemsWork div#7").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+productDesign.img5+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+productDesign.img5+'")');
         $("#7 section").removeClass("rec");
         $("#7 h5").addClass("hide");
         $("#7 h6").addClass("hide");
@@ -1315,12 +1315,12 @@ function changeProduct() {
             <p class="description">I opted for a layout that incorporated the text into the image's style, placed some elements in areas with good contrast, and created a fitting location icon that goes very well with the chosen background.</p>
             <p class="description">I also chose to give the event date a stamp appearance, matching the tradition of using stamps as entrance tickets at club parties. This approach not only makes it more abbealing, but also draws focus to it.</p>
             `;
-            overlayOpen(this,paragraph,"assets/imgs/L-33Flyer.png",0,0);
+            overlayOpen(this,paragraph,"imgs/L-33Flyer.png",0,0);
         }
     });
 
     $("#itemsWork div#7").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img5+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img5+'")');
         $("#7 section").removeClass("rec");
         $("#7 h5").removeClass("hide");
         $("#7 h6").removeClass("hide");
@@ -1329,7 +1329,7 @@ function changeProduct() {
 
     //img8
     $("#itemsWork div#8").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+productDesign.img6+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+productDesign.img6+'")');
         $("#8 section").removeClass("rec");
         $("#8 h5").addClass("hide");
         $("#8 h6").addClass("hide");
@@ -1346,12 +1346,12 @@ function changeProduct() {
             <p class="description">The background has a purple glow, which fits the dark atmosphere of the poster and also creates a sense of depth.</p>
             <p class="description">Since it is one of my favorite bands, I paid close attention to details, such as the shadow on the wall which reflects one of the characters from their album.</p>
             `;
-            overlayOpen(this,paragraph,"assets/imgs/speciiPoster.png",0,0);
+            overlayOpen(this,paragraph,"imgs/speciiPoster.png",0,0);
         }
     });
 
     $("#itemsWork div#8").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+productDesign.img6+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+productDesign.img6+'")');
         $("#8 section").removeClass("rec");
         $("#8 h5").removeClass("hide");
         $("#8 h6").removeClass("hide");
@@ -1376,28 +1376,28 @@ function changeProduct() {
     $("#itemsWork div#7").remove();
     $("#itemsWork div#8").remove();
 
-    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+visualArt.img1+'")');
+    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+visualArt.img1+'")');
     $("#1 h5").html("TASTE THE LIFE");
     $("#1 h6").html("digital art");
 
-    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img2+'")');
+    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img2+'")');
     $("#2 h5").html("DISSECTION");
     $("#2 h6").html("tempera painting");
 
-    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+visualArt.img3+'")');
+    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+visualArt.img3+'")');
     $("#3 h5").html("REFLECTION STAGES");
     $("#3 h6").html("digital art");
 
-    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img4+'")');
+    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img4+'")');
     $("#4 h5").html("QACI 2");
     $("#4 h6").html("concept art");
 
     
-    $("#righWor img").attr("src","assets/imgs/eyeIcon.svg");
+    $("#righWor img").attr("src","imgs/eyeIcon.svg");
 
     //img1
     $("#itemsWork div#1").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+visualArt.img1+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+visualArt.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -1416,12 +1416,12 @@ function changeProduct() {
             <p class="description">The concept portrays the world trying to protect itself with a delicate yet dangerous shield. </p>
             <p class="description">The human desire, then, brutally interferes and disrupts the world's balance, causing it to disintegrate.</p>
             `;
-            overlayOpen(this,paragraph,"assets/imgs/Ice-cream_pic.png",0,0);
+            overlayOpen(this,paragraph,"imgs/Ice-cream_pic.png",0,0);
         }
     });
 
     $("#itemsWork div#1").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("assets/imgs/'+visualArt.img1+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.9)),url("imgs/'+visualArt.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -1432,7 +1432,7 @@ function changeProduct() {
 
     //img2
     $("#itemsWork div#2").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+visualArt.img2+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+visualArt.img2+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -1450,12 +1450,12 @@ function changeProduct() {
                 <p class="description">Although I am not a very good painter, I enjoyed varying between digital and physical work.</p>
                 <p class="description">This painting represents a self-portrait dissected in color, elements, and opposites.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/portrait_picBig.png",0,0);
+                overlayOpen(this,paragraph,"imgs/portrait_picBig.png",0,0);
         }
     });
 
     $("#itemsWork div#2").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img2+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img2+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -1466,7 +1466,7 @@ function changeProduct() {
 
     //img3
     $("#itemsWork div#3").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+visualArt.img3+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+visualArt.img3+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -1485,12 +1485,12 @@ function changeProduct() {
                 <p class="description">This digital art is nothing much, but a psychedelic experience into their dull white bathrooms.</p>
                 <p class="description">In its final moments, the soul reflects upon its own existence.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/bathroom_Big.png",0,0);
+                overlayOpen(this,paragraph,"imgs/bathroom_Big.png",0,0);
         }
     });
 
     $("#itemsWork div#3").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img3+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img3+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -1501,7 +1501,7 @@ function changeProduct() {
 
     //img4
     $("#itemsWork div#4").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+visualArt.img4+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+visualArt.img4+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -1519,12 +1519,12 @@ function changeProduct() {
                 <p class="description">Human forms are dull, and aliens always remain catchy!</p>
                 <p class="description">In this composition, a secret and influential group of extraterrestrial beings from various species gather to deliberate the future of the underneath planet.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/qaci_2_pic.png",0,0);
+                overlayOpen(this,paragraph,"imgs/qaci_2_pic.png",0,0);
         }
     });
 
     $("#itemsWork div#4").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img4+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img4+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -1549,12 +1549,12 @@ function changeProduct() {
 
     $("#itemsWork").append(newFigure);
 
-    $("#itemsWork div#5").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img5+'")');
-    $("#itemsWork div#6").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img6+'")');
+    $("#itemsWork div#5").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img5+'")');
+    $("#itemsWork div#6").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img6+'")');
 
     //img5
     $("#itemsWork div#5").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+visualArt.img5+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+visualArt.img5+'")');
         $("#5 section").removeClass("rec");
         $("#5 h5").addClass("hide");
         $("#5 h6").addClass("hide");
@@ -1576,7 +1576,7 @@ function changeProduct() {
     });
 
     $("#itemsWork div#5").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img5+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img5+'")');
         $("#5 section").removeClass("rec");
         $("#5 h5").removeClass("hide");
         $("#5 h6").removeClass("hide");
@@ -1585,7 +1585,7 @@ function changeProduct() {
 
     //img6
     $("#itemsWork div#6").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+visualArt.img6+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+visualArt.img6+'")');
         $("#6 section").removeClass("rec");
         $("#6 h5").addClass("hide");
         $("#6 h6").addClass("hide");
@@ -1607,7 +1607,7 @@ function changeProduct() {
     });
 
     $("#itemsWork div#6").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+visualArt.img6+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+visualArt.img6+'")');
         $("#6 section").removeClass("rec");
         $("#6 h5").removeClass("hide");
         $("#6 h6").removeClass("hide");
@@ -1628,28 +1628,28 @@ function changeProduct() {
     $("#itemsWork div#7").remove();
     $("#itemsWork div#8").remove();
 
-    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img1+'")');
+    $("#itemsWork div#1").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img1+'")');
     $("#1 h5").html("HIGH ON PINK");
     $("#1 h6").html("flat art");
 
-    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img2+'")');
+    $("#itemsWork div#2").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img2+'")');
     $("#2 h5").html("HURTFUL SPINES");
     $("#2 h6").html("digital art");
 
-    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img3+'")');
+    $("#itemsWork div#3").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img3+'")');
     $("#3 h5").html("YUCCA");
     $("#3 h6").html("flat art");
 
-    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img4+'")');
+    $("#itemsWork div#4").css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img4+'")');
     $("#4 h5").html("ROLL THE DICE");
     $("#4 h6").html("digital art");
 
     
-    $("#righWor img").attr("src","assets/imgs/character.svg");
+    $("#righWor img").attr("src","imgs/character.svg");
 
     //img1
     $("#itemsWork div#1").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+characterDesign.img1+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+characterDesign.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -1666,12 +1666,12 @@ function changeProduct() {
             var paragraph=`
                 <p class="description">In this arwork, I was inspired by an <i>Instagram</i> model, and I experimented with flat design and clipping masks in Illustrator.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/highOnPinkBig.png",0,0);
+                overlayOpen(this,paragraph,"imgs/highOnPinkBig.png",0,0);
         }
     });
 
     $("#itemsWork div#1").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img1+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img1+'")');
         $("#1 button").addClass("hide");
         $("#1 p").addClass("hide");
         $("#1 section").removeClass("rec");
@@ -1682,7 +1682,7 @@ function changeProduct() {
 
     //img2
     $("#itemsWork div#2").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+characterDesign.img2+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+characterDesign.img2+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -1701,12 +1701,12 @@ function changeProduct() {
                 <p class="description">What captivated me about humanizing this plant is its paradoxical nature. Despite its beauty, the closer you get to it, the more harm it causes.</p>
                 <p class="description">This artwork tries to showcase exactly that feeling and the uneasy sensation of always being trapped by your own spikes.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/cacti.png",0,0);
+                overlayOpen(this,paragraph,"imgs/cacti.png",0,0);
         }
     });
 
     $("#itemsWork div#2").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img2+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img2+'")');
         $("#2 button").addClass("hide");
         $("#2 p").addClass("hide");
         $("#2 section").removeClass("rec");
@@ -1717,7 +1717,7 @@ function changeProduct() {
 
     //img3
     $("#itemsWork div#3").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+characterDesign.img3+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+characterDesign.img3+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -1734,12 +1734,12 @@ function changeProduct() {
             var paragraph=`
                 <p class="description">This portrait was created for a friend, exploring the use of shadows and contrast.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/bbOnlyLong.png",0,0);
+                overlayOpen(this,paragraph,"imgs/bbOnlyLong.png",0,0);
         }
     });
 
     $("#itemsWork div#3").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img3+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img3+'")');
         $("#3 button").addClass("hide");
         $("#3 p").addClass("hide");
         $("#3 section").removeClass("rec");
@@ -1750,7 +1750,7 @@ function changeProduct() {
 
     //img4
     $("#itemsWork div#4").mouseover(function(e){
-        $(e.currentTarget).css('background-image', 'url("assets/imgs/'+characterDesign.img4+'")');
+        $(e.currentTarget).css('background-image', 'url("imgs/'+characterDesign.img4+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -1768,12 +1768,12 @@ function changeProduct() {
                 <p class="description">This character design was inspired by one song I really enjoy listening to: <a href="https://www.youtube.com/watch?v=OhPjmI44y2Y" target="blank">"Roll the dice"</a>.</p>
                 <p class="description">It incorporates elements of classic pin-up art with a modern anime style, and iconic fashion pieces.</p>
                 `;
-                overlayOpen(this,paragraph,"assets/imgs/rollLong.png",0,0);
+                overlayOpen(this,paragraph,"imgs/rollLong.png",0,0);
         }
     });
 
     $("#itemsWork div#4").mouseleave(function(e){
-        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("assets/imgs/'+characterDesign.img4+'")');
+        $(e.currentTarget).css('background-image', 'linear-gradient(to bottom, rgba(109, 33, 79, 0.6), rgba(14, 32, 78, 0.6)),url("imgs/'+characterDesign.img4+'")');
         $("#4 button").addClass("hide");
         $("#4 p").addClass("hide");
         $("#4 section").removeClass("rec");
@@ -1904,7 +1904,7 @@ function setupLaptopImageChange(name){
       active = index;
       laptop.addClass('hidden');
       setTimeout(() => {
-        laptop.attr('src', `assets/imgs/hero`+name+`${index + 1}.png`);
+        laptop.attr('src', `imgs/hero`+name+`${index + 1}.png`);
         laptop.removeClass('hidden');
         bullets.removeClass('bullActive');
         $(bullets[index]).addClass('bullActive');
@@ -1933,7 +1933,7 @@ function setupHudChange(){
       active = index;
       laptop.addClass('hidden');
       setTimeout(() => {
-        laptop.attr('src', `assets/imgs/slangsterCat${index + 1}.png`);
+        laptop.attr('src', `imgs/slangsterCat${index + 1}.png`);
         laptop.removeClass('hidden');
         bullets.removeClass('bullActive');
         $(bullets[index]).addClass('bullActive');
