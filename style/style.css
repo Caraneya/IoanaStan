@@ -2147,6 +2147,10 @@ div iframe{
         align-self: flex-start;
     }
 
+    #allCards1,#allCards2{
+        display: block;
+    }
+
   }
 
 
