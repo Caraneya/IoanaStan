@@ -78,7 +78,7 @@ $(document).ready(function() {
             e.preventDefault();
             var label=$(e.currentTarget).find("h5").html();
         if(label=="SHOP THE PIN"){
-            window.location.href = "http://127.0.0.1:5500/ShopPin.html?prev=home";}
+            window.location.href = "https://caraneya.github.io/IoanaStan/ShopPin.html?prev=home";}
         });    
 
     $("#items div#1").mouseleave(function(e){
@@ -108,7 +108,7 @@ $(document).ready(function() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
     if(label=="GALACTIC EXPRESS"){
-        window.location.href = "http://127.0.0.1:5500/Galactic.html?prev=home";}
+        window.location.href = "https://caraneya.github.io/IoanaStan/Galactic.html?prev=home";}
     });
 
     $("#items div#2").mouseleave(function(e){
@@ -138,7 +138,7 @@ $(document).ready(function() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
     if(label=="IMPAIRED"){
-        window.location.href = "http://127.0.0.1:5500/Impaired.html?prev=home";}
+        window.location.href = "https://caraneya.github.io/IoanaStan/Impaired.html?prev=home";}
     });
 
     $("#items div#3").mouseleave(function(e){
@@ -168,7 +168,7 @@ $(document).ready(function() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
     if(label=="HIGH INFINITY GUARD"){
-        window.location.href = "http://127.0.0.1:5500/Guard.html?prev=home";}
+        window.location.href = "https://caraneya.github.io/IoanaStan/Guard.html?prev=home";}
     });
 
     $("#items div#4").mouseleave(function(e){
@@ -197,7 +197,7 @@ $(document).ready(function() {
     });
 
     $("#gamesCat").click(function () {
-        window.location.href = "http://127.0.0.1:5500/work.html";
+        window.location.href = "https://caraneya.github.io/IoanaStan/work.html";
     });
 
     $("#productCat").mouseover(function(e){
@@ -214,7 +214,7 @@ $(document).ready(function() {
     });
 
     $("#productCat").click(function () {
-        window.location.href = "http://127.0.0.1:5500//work.html?page=product";
+        window.location.href = "https://caraneya.github.io/IoanaStan//work.html?page=product";
     });
 
     $("#characterCat").mouseover(function(e){
@@ -231,7 +231,7 @@ $(document).ready(function() {
     });
 
     $("#characterCat").click(function () {
-        window.location.href = "http://127.0.0.1:5500//work.html?page=character";
+        window.location.href = "https://caraneya.github.io/IoanaStan//work.html?page=character";
     });
 
     $("#visualCat").mouseover(function(e){
@@ -248,7 +248,7 @@ $(document).ready(function() {
     });
 
     $("#visualCat").click(function () {
-        window.location.href = "http://127.0.0.1:5500//work.html?page=art";
+        window.location.href = "https://caraneya.github.io/IoanaStan//work.html?page=art";
     });
 
     //Footer button
@@ -874,7 +874,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="IMPAIRED"){
-        window.location.href = "http://127.0.0.1:5500/Impaired.html";
+        window.location.href = "https://caraneya.github.io/IoanaStan/Impaired.html";
         }
     });
 
@@ -901,7 +901,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="SAMURAI SAM"){
-        window.location.href = "http://127.0.0.1:5500/SamuraiSam.html";
+        window.location.href = "https://caraneya.github.io/IoanaStan/SamuraiSam.html";
         }
     });
 
@@ -928,7 +928,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="MYTHICAL DASH"){
-            window.location.href = "http://127.0.0.1:5500/MythicalDash.html";
+            window.location.href = "https://caraneya.github.io/IoanaStan/MythicalDash.html";
         }
     });
 
@@ -983,7 +983,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="SLANGSTER CATS"){
-        window.location.href = "http://127.0.0.1:5500/SlangsterCats.html";
+        window.location.href = "https://caraneya.github.io/IoanaStan/SlangsterCats.html";
         }
     });
 
@@ -1010,7 +1010,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="AREOLES"){
-        window.location.href = "http://127.0.0.1:5500/Areoles.html";
+        window.location.href = "https://caraneya.github.io/IoanaStan/Areoles.html";
         }
     });
 
@@ -1092,7 +1092,7 @@ function changeProduct() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="SHOP THE PIN"){
-        window.location.href = "http://127.0.0.1:5500/ShopPin.html?prev=product";
+        window.location.href = "https://caraneya.github.io/IoanaStan/ShopPin.html?prev=product";
         }
     });
 
@@ -1122,7 +1122,7 @@ function changeProduct() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="HIGH INFINITY GUARD"){
-        window.location.href = "http://127.0.0.1:5500/Guard.html?prev=product";
+        window.location.href = "https://caraneya.github.io/IoanaStan/Guard.html?prev=product";
         }
     });
 
@@ -1239,7 +1239,7 @@ function changeProduct() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="SAMURAI SAM"){
-            window.location.href = "http://127.0.0.1:5500/SamuraiSam.html?prev=product";
+            window.location.href = "https://caraneya.github.io/IoanaStan/SamuraiSam.html?prev=product";
         }
     });
 
@@ -1265,7 +1265,7 @@ function changeProduct() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="INFAMOUS"){
-            window.location.href = "http://127.0.0.1:5500/Infamous.html?prev=product";
+            window.location.href = "https://caraneya.github.io/IoanaStan/Infamous.html?prev=product";
         }
     });
 
@@ -1594,7 +1594,7 @@ function changeProduct() {
         var label=$(e.currentTarget).find("h5").html();
         if(label=="INFAMOUS COLLECTION"){
         $(this).click(function(){
-            window.location.href = "http://127.0.0.1:5500/Infamous.html?prev=VsArt";});
+            window.location.href = "https://caraneya.github.io/IoanaStan/Infamous.html?prev=VsArt";});
         }
     });
 
@@ -1602,7 +1602,7 @@ function changeProduct() {
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="INFAMOUS COLLECTION"){
-            window.location.href = "http://127.0.0.1:5500/Infamous.html?prev=VsArt";
+            window.location.href = "https://caraneya.github.io/IoanaStan/Infamous.html?prev=VsArt";
         }
     });
 
