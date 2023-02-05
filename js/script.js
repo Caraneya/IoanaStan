@@ -846,7 +846,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="GALACTIC EXPRESS"){
-        window.location.href = "http://127.0.0.1:5500/Galactic.html";
+        window.location.href = "Galactic.html";
         }
     });
 
