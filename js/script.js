@@ -846,7 +846,7 @@ function changeGame(){
         e.preventDefault();
         var label=$(e.currentTarget).find("h5").html();
         if(label=="GALACTIC EXPRESS"){
-        window.location.href = "Galactic.html";
+        window.location.href = "https://caraneya.github.io/IoanaStan/Galactic.html";
         }
     });
 
