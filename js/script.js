@@ -761,17 +761,17 @@ $(document).ready(function() {
     var parameter = urlParams.get("prev");
     if(parameter=="product"){
         $("#navPath a").html("Product Design");
-        $("#navPath a").attr("href","work.html?page=product");
+        $("#navPath a").attr("href","IoanaStan/work.html?page=product");
     }
     else if(parameter=="VsArt"){
         $("#navPath a").html("Visual art");
-        $("#navPath a").attr("href","work.html?page=art");
+        $("#navPath a").attr("href","IoanaStan/work.html?page=art");
     }else if(parameter=="home"){
         $("#navPath a").html("Latest work");
-        $("#navPath a").attr("href","index.html?page=home#jumpHere");
+        $("#navPath a").attr("href","IoanaStan/index.html?page=home#jumpHere");
     }else{
         $("#navPath a").html("Game Design");
-        $("#navPath a").attr("href","work.html");
+        $("#navPath a").attr("href","IoanaStan/work.html");
     }
     var parameter = urlParams.get("page");
     if(parameter=="home"){
