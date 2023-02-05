@@ -2111,9 +2111,21 @@ div iframe{
         display: block;
     }
 
-    #hero{
-        height: 40vh;
+    section#hero{
+        max-height: 40vh;
+        display: block;
+        background-size: cover;
+        background-position:right;
     }
+
+    #hero div{
+        padding-top:20%;
+    }
+
+    div#roles{
+        display: block;
+    }
+
     #topLayout div:first-of-type{
         max-height: 20vh;
         align-self: flex-start;
