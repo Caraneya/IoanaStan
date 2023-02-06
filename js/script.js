@@ -775,6 +775,7 @@ $(document).ready(function() {
         $("#navPath a").attr("href","https://caraneya.github.io/IoanaStan/work.html");
     }
     var parameter = urlParams.get("page");
+    console.log(location.pathname);
     if(parameter=="home" || location.pathname === '/index.html'){
         $("div#1").find("h5").html("SHOP THE PIN");
         $("div#1").find("h6").html("UI designer");
