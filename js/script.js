@@ -75,6 +75,7 @@ $(document).ready(function() {
 
     
         $("#items div#1").click(function(e){
+            console.log("click");
             e.preventDefault();
             var label=$(e.currentTarget).find("h5").html();
         if(label=="SHOP THE PIN"){
@@ -774,7 +775,7 @@ $(document).ready(function() {
         $("#navPath a").attr("href","https://caraneya.github.io/IoanaStan/work.html");
     }
     var parameter = urlParams.get("page");
-    if(parameter=="home"){
+    if(parameter=="home" || location.pathname === '/index.html'){
         $("div#1").find("h5").html("SHOP THE PIN");
         $("div#1").find("h6").html("UI designer");
         $("div#2").find("h5").html("GALACTIC EXPRESS");
