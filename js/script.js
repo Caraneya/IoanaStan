@@ -776,7 +776,7 @@ $(document).ready(function() {
     }
     var parameter = urlParams.get("page");
     let homeCheck=$("h3#jumpHere").html();
-    if(parameter=="home" || homeCheck === 'LATEST WORK'){
+    if(parameter=="home" || homeCheck == 'LATEST WORK'){
         $("div#1").find("h5").html("SHOP THE PIN");
         $("div#1").find("h6").html("UI designer");
         $("div#2").find("h5").html("GALACTIC EXPRESS");
