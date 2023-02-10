@@ -800,6 +800,18 @@ $(document).ready(function() {
         else $("nav #right a h4").addClass("media");
     });
 
+    //FAQ
+    $(".titleQuestion").click(function(e){
+        e.preventDefault();
+
+        if($(e.currentTarget).next().hasClass("hideAnswer")){
+        openQuestion(".titleQuestion",0);
+        openQuestion(e.currentTarget,1);
+        }
+        else{
+            openQuestion(".titleQuestion",0);
+        }
+    });
 });
 
 
@@ -1963,3 +1975,16 @@ function setupHudChange(){
       $(this).attr('src', newSrc);
     });
   }
+
+  function openQuestion(element,open){
+    if(open){
+        $(element).find("h3").css("color","#D6A2E8");
+        $(element).find("svg").html('<svg width="24px" height="24px" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#d6a2e8"><path d="M6 15l6-6 6 6" stroke="#d6a2e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>');
+        $(element).next().removeClass("hideAnswer");
+    }
+    else{
+        $(element).find("h3").css("color","white");
+        $(element).find("svg").html('<svg width="24px" height="24px" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff"><path d="M6 9l6 6 6-6" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>');
+        $(element).next().addClass("hideAnswer");
+    }
+ }

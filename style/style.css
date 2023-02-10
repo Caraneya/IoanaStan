@@ -773,7 +773,9 @@ body#contactPage{
 
 #contactPage h1 a{
     color: #D6A2E8;
+    text-decoration: none;
 }
+
 
 #titles p{
     font-family: 'Open Sans', sans-serif;
@@ -785,6 +787,7 @@ body#contactPage{
 
 #titles p a{
     text-decoration: underline;
+    color:#909090;
 }
 
 
@@ -1997,6 +2000,125 @@ div iframe{
 }
 
 
+/* FAQ */
+
+#FAQ{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    height: 88vh;
+    justify-content: space-between;
+    gap:20%;
+}
+
+#FAQ section{
+    margin-top:16%;
+    margin-bottom:16%;
+    flex:1;
+}
+
+#titleLeft h1{
+    text-align: left;
+    margin:0;
+}
+
+#titleLeft p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color:#909090;
+    font-weight: 400;
+    margin-top:40px;
+    margin-bottom:40px;
+    width: 70%;
+}
+
+#titleLeft h1::first-letter{
+    color:#D6A2E8;
+}
+
+#titleLeft{
+    text-align: left;
+    align-self: stretch;
+}
+
+
+#titleLeft a button{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px #D6A2E8;
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-bottom: 36px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #D6A2E8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#titleLeft button:hover{
+    background-color: #D6A2E8;
+    transition: 0.3s;
+    color: #0E204E;
+}
+
+.titleQuestion{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    margin-top:40px;
+    cursor: pointer;
+}
+
+#questions{
+    align-self: flex-start;
+    width:100%;
+}
+
+#noMarg{
+    margin-top:0px;
+}
+
+.titleQuestion h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color:white;
+    font-weight: 500;
+}
+
+
+.titleQuestion button{
+    background-color: initial;
+    border: none;
+    cursor: pointer;
+    margin-top:4px;
+}
+
+.answer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: 300;
+    margin-top:16px;
+    margin-bottom:24px;
+}
+
+hr.ansLine{
+    background-color: #D6A2E8;
+    border: none;
+    height: 2px;
+}
+
+
+.hideAnswer{
+    display: none;
+}
+
+
+
+
 @media only screen and (max-width: 1593px) and (min-width: 1024px) {
     #itemsWork,#items{
         display: flex;
@@ -2027,6 +2149,7 @@ div iframe{
        margin-bottom:20px;
     }
     
+    
     nav #right a h4{
         display: none;
     }
@@ -2055,7 +2178,7 @@ div iframe{
         margin:0;
     }
 
-    body section{
+    body section, #FAQ{
         display: block;
     }
 
